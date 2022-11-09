@@ -4,7 +4,7 @@ print("Addition")
 
 n = float(input("Enter the number: "))
 
-t = 0 #Total number enter
+t = 0 #Total numbers entered 
 
 ans = 0
 
@@ -16,7 +16,7 @@ t+=1
 
 n = float(input("Enter another number (0 to calculate): "))
 
-return [ans,t]
+return [ans,t] #returning answer
 
 def subtraction ():
 
@@ -24,7 +24,7 @@ print("Subtraction");
 
 n = float(input("Enter the number: "))
 
-t = 0 #Total number enter
+t = 0 
 
 sum = 0
 
@@ -44,7 +44,7 @@ print("Multiplication")
 
 n = float(input("Enter the number: "))
 
-t = 0 #Total numbers entered
+t = 0 
 
 ans = 1
 
@@ -77,6 +77,7 @@ return [ans,t]
 while True:
 
 list = []
+#Printing(asking) actions
 
 print(" My first python program!")
 
